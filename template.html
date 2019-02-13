@@ -1,0 +1,27 @@
+<svg class="m-3" viewBox="0 0 36 36" width="170" height="170">
+  <path
+    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+    fill="none"
+    stroke="rgb(242,242,243)"
+    stroke-width="1"
+    stroke-dasharray="100, 100"
+  />
+  <path
+    d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831"
+    fill="none"
+    stroke="{{ $ctrl.stat1.color }}"
+    stroke-width="1.5"
+    stroke-dasharray="{{ $ctrl.stat1.numb }}, 100"
+  />
+  <text x="50%" y="55%" text-anchor="middle">
+    {{ $ctrl.stat1.numb2 }}
+    <tspan>{{ $ctrl.stat1.metric }}</tspan>
+  </text>
+  <text class="small" x="50%" y="70%" text-anchor="middle">
+    {{ $ctrl.stat1.name }}
+  </text>
+</svg>

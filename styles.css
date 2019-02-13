@@ -1,0 +1,52 @@
+html,
+p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.ng-binding {
+  margin: 0 1rem;
+}
+
+.border-dark {
+  border-width: 2px !important;
+}
+text {
+  font-size: 0.45rem;
+  font-weight: 500;
+}
+.small {
+  font-size: 0.25rem;
+  fill: rgb(95, 95, 103);
+}
+tspan {
+  font-size: 0.3rem;
+  fill: rgb(176, 176, 183);
+}
+
+.yellow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1.4rem;
+  background-color: rgb(252, 249, 230);
+}
+.pink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1.4rem;
+  background-color: rgb(245, 225, 225);
+}
+.yellowText {
+  font-weight: bold;
+  color: rgb(159, 103, 55);
+}
+.pinkText {
+  font-weight: bold;
+  color: rgb(162, 62, 61);
+}
